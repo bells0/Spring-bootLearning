@@ -1,6 +1,7 @@
 server:
   port: 8084
 
-mycar:
-  brand: YD
-  price: 10000
+person:
+  userName: zhangsan
+  boss: true
+  birth: 2019/12/9

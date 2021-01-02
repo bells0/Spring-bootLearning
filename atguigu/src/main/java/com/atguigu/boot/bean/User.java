@@ -11,8 +11,5 @@ public class User {
     private Integer age;
     private Pet pet;
 
-    public User(String name, Integer age) {
-        this.name = name;
-        this.age = age;
-    }
+
 }

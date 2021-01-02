@@ -7,11 +7,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class MyConfig {
-    @Bean
-    public User user0(){
 
-        return new User("zhangsan",18);
-    }
     @Bean
     public Pet tomcatPet(){
         return new Pet("tomcat");
