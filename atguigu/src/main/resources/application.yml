@@ -1,7 +1,13 @@
 server:
-  port: 8084
+  port: 8080
 
 person:
   userName: zhangsan
   boss: true
   birth: 2019/12/9
+
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
